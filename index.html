@@ -41,15 +41,30 @@ margin-bottom:30px;
 
 .btn{
 display:inline-block;
-padding:12px 25px;
+padding:14px 28px;
 margin:10px;
-background:#d4af37;
-color:black;
+background:#00ff88;
+color:#000;
 text-decoration:none;
-border-radius:8px;
+border-radius:12px;
 font-weight:bold;
+font-size:16px;
+box-shadow:
+0 0 10px #00ff88,
+0 0 20px #00ff88,
+0 0 40px #00ff88;
+transition:all 0.3s ease;
+color:white;
+text-shadow:0 0 10px #ffffff;
 }
 
+.btn:hover{
+transform:translateY(-3px);
+box-shadow:
+0 0 20px #00ff88,
+0 0 40px #00ff88,
+0 0 80px #00ff88;
+}
 .section{
 padding:60px 20px;
 max-width:900px;
